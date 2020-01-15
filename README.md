@@ -16,6 +16,7 @@ REST - Representational State Transfer
     - 200, 203, 204, 206, 300, 301, 404, 405, 410, 414, and 501
     - No cache preventing headers, like Cache-Control
 1. Uniform Interface
+    - Resource identification in requests eg Content-Type
 1. Layered System
 1. (Optional) Code on demand
 
