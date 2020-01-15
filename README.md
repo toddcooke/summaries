@@ -24,6 +24,8 @@ REST - Representational State Transfer
 1. (Optional) Code on demand - servers can transfer executable code
 
 Software Architecture Patterns
-* Strangler pattern
+- Event sourcing - Append only data store records all events that occur
+- Strangler pattern - Facade allows old system to be slowly replaced
 
-Software Design Patterns - ???
+Software Design Patterns
+- Factory Method - A method creates a new object without directly instantiating 
