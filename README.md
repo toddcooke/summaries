@@ -1,6 +1,10 @@
 # summaries
 
-ACID - Atomic, Consistent, Isolated, Durable
+ACID
+- Atomic - The transaction completely succeeds or falis
+- Consistent - Data will be valid before and after a transaction
+- Isolated - Transactions can happen concurrently
+- Durable - The results of a transaction are saved to disk
 
 Eventual Consistency - Reads that may not be up to date after writes
 
