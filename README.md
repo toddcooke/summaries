@@ -6,7 +6,7 @@ ACID
 - Isolated - Transactions can happen concurrently
 - Durable - The results of a transaction are saved to disk
 
-Eventual Consistency - Reads that may not be up to date after writes
+Eventual Consistency - Reads after writes may not reflect latest writes
 
 REST - Representational State Transfer
 1. Client-Server
