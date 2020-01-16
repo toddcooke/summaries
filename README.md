@@ -29,3 +29,15 @@ Software Architecture Patterns
 
 Software Design Patterns
 - Factory Method - A method creates a new object without directly instantiating 
+
+SQL
+- Inner join - All rows from tables A and B where a condition is met
+- Left outer join - Same as inner join plus all rows from the left side of the JOIN operator
+- Right outer join - Same as inner join plus all rows from the right side of the JOIN operator
+- Full outer join - All rows from both tables
+
+
+
+
+Credit
+http://www.sql-join.com/sql-join-types
