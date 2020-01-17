@@ -31,10 +31,10 @@ Software Design Patterns
 - Factory Method - A method creates a new object without directly instantiating 
 
 SQL
-- Inner join - All rows from tables A and B where a condition is met
-- Left outer join - Same as inner join plus all rows from the left side of the JOIN operator
-- Right outer join - Same as inner join plus all rows from the right side of the JOIN operator
-- Full outer join - All rows from both tables
+- INNER JOIN - All rows from tables A and B where a condition is met
+- LEFT OUTER JOIN - Same as inner join plus all rows from the left side of the JOIN operator
+- RIGHT OUTER JOIN - Same as inner join plus all rows from the right side of the JOIN operator
+- FULL OUTER JOIN - All rows from both tables
 - WHERE - can't have aggregate functions. Selects input rows before groups and aggregates are computed
 - HAVING - always has aggregate functions. Selects group rows after groups and aggregates are computed
 - GROUP BY - creates groups that can then be aggregated on eg `SELECT city, max(temp_lo) FROM weather GROUP BY city`
