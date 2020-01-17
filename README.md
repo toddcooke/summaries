@@ -32,7 +32,7 @@ Software Design Patterns
 
 Software Design Principles
 - SOLID
-    - Single responsibility - a class should do one thing
+    - Single responsibility - a class should do one thing and only that class should do that thing
     - Open/Closed - Open for extension, closed for modification
     - Liskov substitution - subclasses may be used in place of parent classes
     - Interface aggregation - many specific interfaces are better than single large ones
