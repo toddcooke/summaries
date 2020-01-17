@@ -37,3 +37,4 @@ SQL
 - Full outer join - All rows from both tables
 - WHERE - can't have aggregate functions. Selects input rows before groups and aggregates are computed
 - HAVING - always has aggregate functions. Selects group rows after groups and aggregates are computed
+- GROUP BY - creates groups that can then be aggregated on eg `SELECT city, max(temp_lo) FROM weather GROUP BY city`
