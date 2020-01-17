@@ -30,6 +30,14 @@ Software Architecture Patterns
 Software Design Patterns
 - Factory Method - A method creates a new object without directly instantiating 
 
+Software Design Principles
+- SOLID
+    - Single responsibility - a class should do one thing
+    - Open/Closed - Open for extension, closed for modification
+    - Liskov substitution - subclasses may be used in place of parent classes
+    - Interface aggregation - many specific interfaces are better than single large ones
+    - Dependency inversion - depend upon abstractions
+
 SQL
 - INNER JOIN - All rows from tables A and B where a condition is met
 - LEFT OUTER JOIN - Same as inner join plus all rows from the left side of the JOIN operator
