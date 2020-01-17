@@ -35,3 +35,5 @@ SQL
 - Left outer join - Same as inner join plus all rows from the left side of the JOIN operator
 - Right outer join - Same as inner join plus all rows from the right side of the JOIN operator
 - Full outer join - All rows from both tables
+- WHERE - can't have aggregate functions. Selects input rows before groups and aggregates are computed
+- HAVING - always has aggregate functions. Selects group rows after groups and aggregates are computed
