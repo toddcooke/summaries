@@ -30,7 +30,10 @@ Software Architecture Patterns
 - Strangler pattern - Facade allows old system to be slowly replaced
 
 Software Design Patterns
-- Factory Method - Get instance of a class by calling a method rather than using `new SomeClass()` 
+- Adapter - Allows two incompatible interfaces to work together.
+- Builder - Create a class incrementally by calling methods on a builder class
+- Factory Method - Get instance of a class by calling a method rather than using `new SomeClass()`
+- Observer - An object maintains list of observers which it updates whenever it changes
 - Singleton - A class with one instance that can be accessed globally
 
 Software Design Principles
