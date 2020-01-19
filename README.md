@@ -25,6 +25,7 @@ REST - Representational State Transfer
 
 Software Architecture Patterns
 - Event sourcing - Append only data store records all events that occur
+- Publisher/Subscriber - Publishers publish to a broker and subscribers subscribe to a channel.
 - Strangler pattern - Facade allows old system to be slowly replaced
 
 Software Design Patterns
