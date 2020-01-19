@@ -31,7 +31,7 @@ Software Architecture Patterns
 
 Software Design Patterns
 - Factory Method - A method creates a new object without directly instantiating 
-
+- Singleton - A class with one instance that can be accessed globally
 Software Design Principles
 - SOLID
     - Single responsibility - a class should do one thing and only that class should do that thing
