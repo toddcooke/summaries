@@ -30,7 +30,7 @@ Software Architecture Patterns
 - Strangler pattern - Facade allows old system to be slowly replaced
 
 Software Design Patterns
-- Factory Method - A method creates a new object without directly instantiating 
+- Factory Method - Get instance of a class by calling a method rather than using `new SomeClass()` 
 - Singleton - A class with one instance that can be accessed globally
 
 Software Design Principles
