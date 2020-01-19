@@ -24,6 +24,7 @@ REST - Representational State Transfer
 1. (Optional) Code on demand - servers can transfer executable code
 
 Software Architecture Patterns
+- Command and Query Responsibility Segregation - Separate models or databases for reading and writing. Commands are task based eg "Book hotel room", queries never modify the database.
 - Event sourcing - Append only data store records all events that occur
 - Publisher/Subscriber - Publishers publish to a broker and subscribers subscribe to a channel.
 - Strangler pattern - Facade allows old system to be slowly replaced
